@@ -1,9 +1,10 @@
 <div class="jumbotron">
     <h1>Quotes</h1>
   </div>
+  <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
   <ul>
     <div *ngFor="let quote of quotes;let i=index">
-      <li>{{quote.name}} written on {{quote.notedDate|date}}</li>
+      <li>{{quote.name}} - Written on {{quote.notedDate|date}}</li>
     <button (click)='toggleDetails(i)'>Details</button>
     <button (click)='upvote(i)'><i class="fa fa-thumbs-o-up"></i>{{quote.upvotes}}</button>
     <button (click)='downvote(i)'><i class="fa fa-thumbs-o-down"></i>{{quote.downvotes}}</button>
