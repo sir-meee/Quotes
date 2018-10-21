@@ -2,8 +2,12 @@
     <h1>Quotes</h1>
   </div>
   <ul>
-    <div *ngFor='let quote of quotes'>
+    <div *ngFor="let quote of quotes, let i=index">
     <li>{{quote.name}}</li>
-    <app-quote-details [quote]='quote'></app-quote-details>
+    <button (click)='toggleDetails(i)'>Details</button>
+    <button (click)='upvote(i)'><i class="fa fa-thumbs-o-up"></i>{{quote.upvotes}}</button>
+    <button (click)='downvote(i)'><i class="fa fa-thumbs-o-down"></i>{{quote.downvotes}}</button>
+    <button (click)='quoteDelete(true)'>Delete quote</button>
+    <app-quote-details *ngIf="quote.author" [quote]='quote'></app-quote-details>
   </div>
   </ul>
