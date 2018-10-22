@@ -11,3 +11,6 @@ form{
   #go:hover{
     color: white;
   }
+.form-group{
+  color: black
+}  

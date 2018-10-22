@@ -1,13 +1,13 @@
 .jumbotron{
     text-align: center;
-    background-color: rgba(255,255,255,0.6);
-    font-family: 'Luckiest Guy', cursive;
+    background-color: rgba(255, 255, 255, 0);
+    
    }
    .container-fluid{
-    background-image: url("/assets/");
+    background-image: url("/assets/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-     background-attachment: fixed;
+    background-attachment: fixed;
    }
   .items{
        background-color: rgba(255,255,255,0.9);
@@ -24,4 +24,6 @@
   }
   #listed{
     font-family: 'Courgette', cursive;
+    color: black;
+    
   }
