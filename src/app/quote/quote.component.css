@@ -1,9 +1,10 @@
 .jumbotron{
     text-align: center;
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(255,255,255,0.6);
+    font-family: 'Luckiest Guy', cursive;
    }
    .container-fluid{
-    background-image: url("/assets/1302169.jpg");
+    background-image: url("/assets/");
     background-repeat: no-repeat;
     background-size: cover;
      background-attachment: fixed;
@@ -20,4 +21,7 @@
   }
   button{
     margin-bottom: 5px;
+  }
+  #listed{
+    font-family: 'Courgette', cursive;
   }
