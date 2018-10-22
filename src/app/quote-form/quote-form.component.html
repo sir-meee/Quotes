@@ -1,5 +1,5 @@
 <div class="container">
-    <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
+    <form (ngSubmit)="submitQuote()" #quoteForm='ngForm'>
   <div class="form-group">
     <label for="name">Enter your Quote here:</label>
     <textarea class="form-control" id="name" rows="4" [(ngModel)]="newQuote.name" name="name"></textarea>
@@ -12,6 +12,6 @@
     <label for="fan">Written by:</label>
       <input type="text" class="form-control" id="fan" [(ngModel)]="newQuote.fan" name="name">
   </div>
-  <button type="submit">Add quote</button>
+  <button type="submit" id="go">Add quote</button>
     </form>
    </div>
