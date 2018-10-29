@@ -4,6 +4,11 @@
  ## Description
 This is a website wherby you can creat quotes, view and rate quotes with upvotes and downvotes.
 
+#### By **Sammy**
+
+## Link to site
+https://sir-meee.github.io/quotes/
+
 ## Setup/Installation Requirements
 No setup is required/installation is required to access this file
 
