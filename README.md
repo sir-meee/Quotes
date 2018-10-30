@@ -1,8 +1,8 @@
 # Quotes
  This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
 
- ## Description
-This is a website wherby you can creat quotes, view and rate quotes with upvotes and downvotes.
+## Description
+This is a website wherby you can create quotes, view and rate quotes with upvotes and downvotes.
 
 #### By **Sammy**
 
